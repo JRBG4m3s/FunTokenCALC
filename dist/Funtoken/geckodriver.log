@@ -1,0 +1,9 @@
+1649446367609	geckodriver	INFO	Listening on 127.0.0.1:64596
+1649446370700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64597" "-no-remote" "-profile" "C:\\Users\\jrber\\AppData\\Local\\Temp\\rust_mozprofileJT66aY"
+1649446371499	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jrber\\AppData\\Local\\Temp\\rust_mozprofileJT66aY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64597/devtools/browser/1de381d2-b038-40fc-8aa6-8f40b318d178
+1649446377452	Marionette	INFO	Listening on port 64604
+1649446377653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649446385243	Marionette	INFO	Stopped listening on port 64604
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
